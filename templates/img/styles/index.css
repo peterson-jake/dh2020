@@ -1,0 +1,123 @@
+/* Open Sans Google Font */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,700);
+
+
+/* Montserrat Google Font */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+/* Finger Paint Font */
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC);
+*{
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+}
+body{
+}
+section {
+    overflow-x:hidden;
+}
+/* adding the banner */
+.banner{
+    background-size: cover;
+    background-color: #01314d;
+    color:#fff;
+    padding-top: 2%;
+}
+.banner .container{
+    padding: 0%;
+    
+}
+.banner .container p{
+    font-size: 20px;
+    color: #fff;
+    margin-top: -20px;
+    font-family: 'Montserrat';
+    font-weight: 300; 
+    text-align: center;
+}
+
+.banner .container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 30%;
+
+}
+
+.banner .container h1{
+    font-size: 75px;
+    color:#fff;
+    padding-bottom: 10px;
+    font-family: 'Montserrat';
+    font-weight: 700; 
+    text-align: center;
+}
+/* adding the about */
+.about{
+    background-size: cover;
+    background-color: #fff;
+    color:#fff;
+    padding-top: 2%;
+}
+.about .bio{
+    padding: 0%;
+}
+.about .bio h1{
+    text-align: center;
+    font-size: 35px;
+    color:#181818;
+    font-family: 'Montserrat';
+    font-weight: 300; 
+}
+.about .bio p{
+    font-size: 10px;
+    color: #181818;
+    font-family: 'Montserrat';
+    font-weight: 300; 
+    text-align: center;
+}
+/*adding the FAQ*/
+
+.faq{
+    background-size: cover;
+    background-color: #01314d;
+    color:#01314d;
+    padding-top: 2%;
+
+}
+.faq .container{
+    padding: 0%;
+    width: 40%;
+}
+h2 {
+    text-align: center;
+    font-size: 35px;
+    color:#fff;
+    font-family: 'Montserrat';
+    font-weight: 300; 
+}
+.faq .panel-full .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.faq .panel-full .panel-title a {
+    text-decoration: none;
+    display: block;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+}
+.faq .panel-full .panel-title a:after {
+    font-style: normal;
+    font-size: 3rem;
+    color: #1f7de2;
+    float: right;
+    margin-top: -12px;
+}
+.faq .panel-full .panel-body {
+    color: white;
+    font-size: 1.2rem;
+}
