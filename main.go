@@ -1,15 +1,37 @@
 package main
 
 import (
-	"fmt"
+	"html/template"
+	"log"
 	"net/http"
+
+	"github.com/gorilla/mux"
 )
 
-func handlerFunc(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "<h1> DH 2020 </h1>")
+var tmpls = template.Must(template.ParseFiles("templates/index.html"))
+
+func indexHandler(w http.ResponseWriter, r *http.Request) {
+	data := struct {
+		Title  string
+		Header string
+	}{
+		Title:  "Index Page",
+		Header: "DemonHacks",
+	}
+
+	if err := tmpls.ExecuteTemplate(w, "index.html", data); err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
 }
 
 func main() {
-	http.HandleFunc("/", handlerFunc)
-	http.ListenAndServe(":3000", nil)
+	r := mux.NewRouter()
+	r.HandleFunc("/", indexHandler)
+
+	r.PathPrefix("/styles/").Handler(http.StripPrefix("/styles/",
+		http.FileServer(http.Dir("templates/styles/"))))
+
+	http.Handle("/", r)
+	log.Fatalln(http.ListenAndServe("127.0.0.1:3000", nil))
 }
