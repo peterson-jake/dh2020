@@ -1,0 +1,57 @@
+/* Open Sans Google Font */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,700);
+
+
+/* Montserrat Google Font */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+/* Finger Paint Font */
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC);
+
+* {
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+}
+
+
+section {
+    overflow-x: hidden;
+}
+
+/* sponsors section */
+.sponsors {
+    background-size: cover;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding-top: 2%;
+}
+
+.sponsors .container {
+    padding: 0%;
+    padding-top: 10;
+    padding-bottom: 10;
+}
+
+h3 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+.sponsors .container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    transition: transform .2s;
+    width: 20%;
+    height: 20%;
+}
+
+.sponsors .container img:hover {
+    transform: scale(1.1);
+}

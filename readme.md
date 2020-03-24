@@ -1,3 +1,9 @@
-<h1> How to run </h1>
+<h1> DemonHacks Website </h1>
 
-Type "go run main.go" in cmd
+Built with Javascript (ES6) & HTML5
+
+Hosted by Github Pages
+
+Domain provided by Cloudflare
+
+Website designed by Elona Selenica, Murtaza Meerza and Mikala Metzger

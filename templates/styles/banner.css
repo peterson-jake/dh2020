@@ -1,0 +1,86 @@
+/* Open Sans Google Font */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,700);
+
+
+/* Montserrat Google Font */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+/* Finger Paint Font */
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC);
+
+* {
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    overflow-x: hidden;
+}
+
+/* adding the banner */
+.banner {
+    background-size: cover;
+    background-color: #01314d;
+    color: #fff;
+    padding-top: 2%;
+}
+
+.banner .container {
+    padding: 0%;
+    text-align: center;
+
+}
+
+.banner .container p {
+    font-size: 20px;
+    color: #fff;
+    margin-top: -20px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    text-align: center;
+}
+
+.banner .container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 30%;
+
+}
+
+.banner .container h1 {
+    font-size: 75px;
+    color: #fff;
+    padding-bottom: 10px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-align: center;
+}
+
+.banner .container a {
+    display: inline-block;
+    border: 0.1em solid #FFFFFF;
+    padding-top: .7%;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 25;
+    color: #FFFFFF;
+    transition: all 0.2s;
+    margin-bottom: 10px;
+    text-align: center;
+
+    width: 150px;
+    height: 60px;
+}
+
+.banner .container a:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+}
