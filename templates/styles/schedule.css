@@ -29,7 +29,9 @@ section {
 }
 
 .schedule .container {
-    padding: 0%;
+    border-left: 5px solid whitesmoke;
+    border-width: 10px;
+    border-color: #fff;
     width: 70%;
 }
 
