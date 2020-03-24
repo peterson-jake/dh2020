@@ -1,0 +1,305 @@
+<html>
+
+<!------------ Setup ----------->
+
+<head>
+  <title>DemonHacks Website</title>
+  <link rel="stylesheet" href="templates/styles/about.css">
+  <link rel="stylesheet" href="templates/styles/banner.css">
+  <link rel="stylesheet" href="templates/styles/faq.css">
+  <link rel="stylesheet" href="templates/styles/schedule.css">
+  <link rel="stylesheet" href="templates/styles/sponsors.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <!------------Banner section------------>
+  <section class="banner">
+    <div class="container">
+      <img src="templates/img/icondh.png">
+      <h1>DemonHacks</h1>
+      <p>DePaul University</p>
+      <p>Chicago, Illinois</p>
+      <p>Oct. 24th-25th</p>
+      <div class="buttons-looked-strange-vertical">
+        <a target="_blank" href="https://www.demonhacks.com/">Apply</a>
+        <a target="_blank" href="mailto:sponsor@demonhacks.com">Sponsor</a>
+      </div>
+    </div>
+    <br>
+  </section>
+
+  <!------------About section------------>
+
+  <section class="about">
+    <div class="container">
+      <h1 style="font-family: Montserrat; font-size: 35px; font-weight: 300;color: #fff;">About.</h1>
+      <p>DemonHacks is a 26-hour hackathon hosted by DePaul University that encourages students to
+        investigate new ideas and develop new solutions.
+        Teams of college students will work together to develop a hardware or software hack that they will present to
+        judges for a chance to win prizes! If you have any questions check out the FAQ Section or feel free to <a
+          href="team@demonhacks.com">email us</a>!
+      </p>
+    </div>
+  </section>
+
+  <!------------FAQ section------------>
+
+  <section class="faq" aria-label="Question Accordions">
+    <div class="container">
+      <h1>FAQ.</h1>
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-full">
+          <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
+            <h3 class="panel-title">
+              <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
+                href="#collapse0" aria-expanded="true" aria-controls="collapse0">
+                Are applications open?
+              </a>
+            </h3>
+          </div>
+          <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
+            <div class="panel-body px-5 mb-4">
+              <p>Applications are now closed for 2019. Check back again next year!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-full">
+          <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
+            <h3 class="panel-title">
+              <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
+                href="#collapse7" aria-expanded="true" aria-controls="collapse7">
+                Where is the Event?
+              </a>
+            </h3>
+          </div>
+          <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+            <div class="panel-body px-5 mb-4">
+              <p>The event is being hosted at DePaul University’s loop campus in our College of Computing and Digital
+                Media building located at 243 S Wabash Ave, Chicago, IL 60604.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-full">
+          <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
+            <h3 class="panel-title">
+              <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
+                href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                I'm a beginner; am I welcome?
+              </a>
+            </h3>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+            <div class="panel-body px-5 mb-4">
+              <p>Of course! Hackathons are a great place to learn new technologies, meet new people, network with
+                sponsors, add something to your resume, and eat some free food ;)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-full">
+          <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
+            <h3 class="panel-title">
+              <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
+                href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                What is a hackathon?
+              </a>
+            </h3>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+            <div class="panel-body px-5 mb-4">
+              <p>A hackathon is an invention marathon. Students come together to build cool software & hardware hacks
+                over 24-48 hours. It’s very beginner friendly.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-full">
+          <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
+            <h3 class="panel-title">
+              <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
+                href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                How much does it cost?
+              </a>
+            </h3>
+          </div>
+          <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+            <div class="panel-body px-5 mb-4">
+              <p>Nothing, attending a hackathon is free!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!------------Schedule section------------>
+
+  <section class="schedule">
+    <div class="container">
+      <h1>Schedule.</h1>
+      <a href="javascript:;" class="button1" onclick="toggleSat('sat')"><b>Saturday, Oct. 24th</b></a>
+      <div id="sat" style="display:none">
+        <br>
+        <table id="satTable">
+          <tr>
+            <th>Time (CDT) (GMT-5)</th>
+            <th>Event</th>
+            <th>Location</th>
+          </tr>
+          <tr>
+            <td>9:00 am - 12:00 pm</td>
+            <td>Check-in</td>
+            <td>9th Floor CDM Building</td>
+          </tr>
+          <tr>
+            <td>9:00 am - 11:00 am</td>
+            <td>Meet the Sponsors</td>
+            <td>9th Floor CDM Building</td>
+          </tr>
+          <tr>
+            <td>10:00 am</td>
+            <td>Breakfast + Walk-ins check-in</td>
+            <td>9th Floor CDM Building</td>
+          </tr>
+          <tr>
+            <td>11:00 am</td>
+            <td>Opening Ceremony</td>
+            <td>9th Floor CDM Building</td>
+          </tr>
+          <tr>
+            <td>11:30 am</td>
+            <td>HACKING BEGINS + (Team Building)</td>
+            <td>9th Floor CDM Building</td>
+          </tr>
+          <tr>
+            <td>1:00 pm</td>
+            <td>Tech Talk (Git Better)</td>
+            <td>9th Floor CDM Building</td>
+          </tr>
+          <tr>
+            <td>2:00 pm</td>
+            <td>Lunch</td>
+            <td>9th Floor CDM Building</td>
+          </tr>
+          <tr>
+            <td>4:00 pm</td>
+            <td>Tech Talk (Personal & Application Security)</td>
+            <td>9th Floor CDM Building</td>
+          </tr>
+          <tr>
+            <td>6:30 pm</td>
+            <td>Dinner</td>
+            <td>9th Floor CDM Building</td>
+          </tr>
+          <tr>
+            <td>9:00 pm</td>
+            <td>Cup Stacking Tournament</td>
+            <td>9th Floor CDM Building</td>
+          </tr>
+          <tr>
+            <td>11:00 pm</td>
+            <td>Tech Talk (ThoughtWorks)</td>
+            <td>9th Floor CDM Building</td>
+          </tr>
+          </tr>
+        </table>
+        <br>
+      </div>
+      <p></p>
+      <a href="javascript:;" class="button1" onclick="toggleSun('sun')"><b>Sunday, Oct. 25th</b></a>
+      <div id="sun" style="display:none">
+        <br>
+        <table id="sunTable">
+          <tr>
+            <th>Time (CDT) (GMT-5)</th>
+            <th>Event</th>
+            <th>Location</th>
+          </tr>
+          <tr>
+            <td>12:00 am</td>
+            <td>Midnight Snack</td>
+            <td>9th Floor CDM Building</td>
+          </tr>
+          <tr>
+            <td>1:00 am</td>
+            <td>LipSync Battle & Giant Games</td>
+            <td>9th Floor CDM Building</td>
+          </tr>
+          <tr>
+            <td>7:00 am</td>
+            <td>Breakfast</td>
+            <td>9th Floor CDM Building</td>
+          </tr>
+          <tr>
+            <td>9:00 am</td>
+            <td>Paper Plane Tournament</td>
+            <td>9th Floor CDM Building</td>
+          </tr>
+          <tr>
+            <td>11:00 am</td>
+            <td>Brunch</td>
+            <td>9th Floor CDM Building</td>
+          </tr>
+          <tr>
+            <td>11:30 am</td>
+            <td>HACKING ENDS (Submissions Due)</td>
+            <td>9th Floor CDM Building</td>
+          </tr>
+          <tr>
+            <td>12:30 pm - 2:00 pm</td>
+            <td>Project Expo</td>
+            <td>9th Floor CDM Building</td>
+          </tr>
+          <tr>
+            <td>3:00 pm</td>
+            <td>Closing Ceremony</td>
+            <td>9th Floor CDM Building</td>
+          </tr>
+          </tr>
+        </table>
+        <br>
+      </div>
+      <br>
+    </div>
+    <script src="js/schedule.js"></script>
+  </section>
+
+  <!------------Sponsors section------------>
+
+  <section class="sponsors">
+    <div class="container">
+      <div class="column">
+        <h3>Previous Sponsors.</h3>
+        <div class="row">
+          <img target="_blank" src="templates/img/Aquatic.png">
+          <img src="templates/img/JPMC-Logo-Black.png" onClick="window.open('http://jpmorganchase.com','_blank')">
+        </div>
+        <div class="row">
+          <img src="templates/img/brooksource.png" onClick="window.open('https://www.brooksource.com','_blank')">
+        </div>
+        <div class="row">
+          <img src="templates/img/Donlen.png" onClick="window.open('http://donlen.com','_blank')">
+          <img src="templates/img/ThoughtWorks.png" onClick="window.open('http://thoughtworks.com','_blank')">
+        </div>
+        <div class="row">
+          <img src="templates/img/SafB.png" onClick="window.open('https://dehub.campusgroups.com/hub/saf-b/','_blank')">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!------------Footer section------------>
+
+  <section class="footer">
+  </section>
+
+</body>
+
+</html>

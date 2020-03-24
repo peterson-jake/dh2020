@@ -1,0 +1,128 @@
+/* Open Sans Google Font */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,700);
+
+
+/* Montserrat Google Font */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+/* Finger Paint Font */
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC);
+
+* {
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+}
+
+
+
+section {
+    overflow-x: hidden;
+}
+
+/* schedule section */
+.schedule {
+    background-size: cover;
+    background-color: #01314d;
+    color: #fdfeff;
+    padding-top: 2%;
+}
+
+.schedule .container {
+    padding: 0%;
+    width: 70%;
+}
+
+#schedule h1 {
+    font-size: 35px;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+a.button1 {
+    display: block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    margin: 0 auto;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.4s;
+}
+
+a.button1:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+@media all and (max-width:30em) {
+    a.button1 {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+/* saturday table */
+#satTable {
+    font-family: 'Montserrat';
+    border-collapse: collapse;
+    color: #ddd;
+    width: 100%;
+}
+
+#satTable td,
+#satTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#satTable tr:nth-child(even) {
+    background-color: #01314d;
+}
+
+#satTable tr:hover {
+    background-color: #000000;
+}
+
+#satTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #01314d;
+    color: #ddd;
+}
+
+/* sunday table */
+#sunTable {
+    font-family: 'Montserrat';
+    border-collapse: collapse;
+    color: #ddd;
+    width: 100%;
+}
+
+#sunTable td,
+#sunTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#sunTable tr:nth-child(even) {
+    background-color: #01314d;
+}
+
+#sunTable tr:hover {
+    background-color: #000000;
+}
+
+#sunTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #01314d;
+    color: #ddd;
+}
