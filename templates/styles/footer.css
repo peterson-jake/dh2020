@@ -17,3 +17,11 @@
 section {
     overflow-x: hidden;
 }
+
+.footer {
+    background-size: cover;
+    padding: 10px;
+    margin: auto;
+    color: #fff;
+    background-color: #01314d;
+}
