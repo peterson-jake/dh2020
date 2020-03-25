@@ -1,6 +1,6 @@
 <h1> DemonHacks Website </h1>
 
-Built with Javascript (ES6) & HTML5
+Built with HTML5, CSS & Javascript (ES6)
 
 Hosted by Github Pages
 
