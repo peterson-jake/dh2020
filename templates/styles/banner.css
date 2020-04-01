@@ -21,9 +21,10 @@ section {
 /* adding the banner */
 .banner {
     background-size: cover;
-    background-color: #01314d;
+    background-color: #202020;
+    /*background-color: #01314d;*/
     color: #fff;
-    padding-top: 2%;
+    padding-top: 15%;
 }
 
 .banner .container {
@@ -47,8 +48,9 @@ section {
     margin-right: auto;
     margin-top: 10px;
     margin-bottom: 5px;
-    width: 30%;
-
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 4%;
 }
 
 .banner .container h1 {
@@ -75,7 +77,6 @@ section {
     transition: all 0.2s;
     margin-bottom: 10px;
     text-align: center;
-
     width: 150px;
     height: 60px;
 }
