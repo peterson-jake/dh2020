@@ -14,8 +14,6 @@
     padding: 0;
 }
 
-
-
 section {
     overflow-x: hidden;
 }
@@ -23,7 +21,7 @@ section {
 /* schedule section */
 .schedule {
     background-size: cover;
-    background-color: #01314d;
+    background-color: #202020;
     color: #fdfeff;
     padding-top: 2%;
 }
@@ -43,33 +41,37 @@ section {
 }
 
 a.button1 {
+    text-decoration: none;
     display: block;
     padding: 0.35em 1.2em;
     border: 0.1em solid #FFFFFF;
     margin: 0 auto;
     border-radius: 0.12em;
     box-sizing: border-box;
-    text-decoration: none;
     font-family: 'Montserrat';
     font-weight: 300;
     color: #FFFFFF;
     text-align: center;
     transition: all 0.4s;
+    background-color: #092535;
+
 }
 
 a.button1:hover {
-    color: #000000;
-    background-color: #FFFFFF;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
 }
 
 @media all and (max-width:30em) {
     a.button1 {
         display: block;
-        margin: 0.4em auto;
+        margin: 0.4em auto;  
     }
 }
 
 /* saturday table */
+
 #satTable {
     font-family: 'Montserrat';
     border-collapse: collapse;
@@ -84,9 +86,11 @@ a.button1:hover {
 }
 
 #satTable tr:nth-child(even) {
+    background-color: #092535;
+}
+#satTable tr:nth-child(odd) {
     background-color: #01314d;
 }
-
 #satTable tr:hover {
     background-color: #000000;
 }
@@ -114,9 +118,11 @@ a.button1:hover {
 }
 
 #sunTable tr:nth-child(even) {
+    background-color: #092535;
+}
+#sunTable tr:nth-child(odd) {
     background-color: #01314d;
 }
-
 #sunTable tr:hover {
     background-color: #000000;
 }

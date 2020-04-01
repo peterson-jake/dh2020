@@ -9,9 +9,9 @@ function toggleSat() {
 
 function toggleSun() {
     var x = document.getElementById("sun");
-    if (x.style.display === "none") {
+    if (x.style.display === "none"){
         x.style.display = "block";
-    } else {
+      } else {
         x.style.display = "none";
     }
 }
