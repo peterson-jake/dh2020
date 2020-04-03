@@ -48,8 +48,7 @@ h3 {
     margin-top: 10px;
     margin-bottom: 5px;
     transition: transform .2s;
-    width: 20%;
-    height: 20%;
+    max-width: 200px;
 }
 
 .sponsors .container img:hover {
