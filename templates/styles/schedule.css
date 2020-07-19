@@ -70,6 +70,39 @@ a.button1:hover {
     }
 }
 
+
+/* friday table */
+#friTable {
+    font-family: 'Montserrat';
+    border-collapse: collapse;
+    color: #ddd;
+    width: 100%;
+}
+
+#friTable td,
+#friTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#friTable tr:nth-child(even) {
+    background-color: #092535;
+}
+#friTable tr:nth-child(odd) {
+    background-color: #01314d;
+}
+#friTable tr:hover {
+    background-color: #000000;
+}
+
+#friTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #01314d;
+    color: #ddd;
+}
+
 /* saturday table */
 
 #satTable {

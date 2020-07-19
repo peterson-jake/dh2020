@@ -18,14 +18,14 @@
 
 <body style="background-color:black;">
   <!------------Navbar section------------>
-  <div class="navbar" style="background-color:white;">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="active" href="#about">About</a>
-      <a href="#faq">FAQ</a>
-      <a href="#schedule">Schedule</a>
-      <a href="#sponsors">Sponsors</a>
+      <a class="nav-link text-secondary py-0" href="#about">About</a>
+      <a class="nav-link text-secondary py-0" href="#faq">FAQ</a>
+      <a class="nav-link text-secondary py-0" href="#schedule">Schedule</a>
+      <a class="nav-link text-secondary py-0" href="#sponsors">Sponsors</a>
     </div>
-  </div> 
+  </nav>
 
   <!------------Banner section------------>
   <section class="banner">
@@ -33,8 +33,8 @@
       <img src="templates/img/dhlogoSolid.png">
       <p>Applications for 2020 opening soon!</p>
       <p>DePaul University</p>
-      <p>Chicago, Illinois</p>
-      <p>Oct. 24th-25th</p>
+      <p>Oct. 23rd-25th</p>
+      <p>36 hours</p>
       <div class="buttons-looked-strange-vertical">
         <!------------<a target="_blank" href="https://www.demonhacks.com/">Apply</a>------------>
         <a target="_blank" href="mailto:sponsor@demonhacks.com">Sponsor</a>
@@ -48,7 +48,7 @@
   <section class="about" id="about">
     <div class="container">
       <h1 style="font-family: Montserrat; font-size: 35px; font-weight: 300;color: #fff;">About.</h1>
-      <p>DemonHacks is a 26-hour hackathon hosted by DePaul University that encourages students to
+      <p>DemonHacks is a 36-hour hackathon hosted by DePaul University that encourages students to
         investigate new ideas and develop new solutions.
         Teams of college students will work together to develop a hardware or software hack that they will present to
         judges for a chance to win prizes! If you have any questions check out the FAQ Section or feel free to email us.
@@ -83,7 +83,7 @@
           </div>
           <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
             <div class="panel-body px-5 mb-4">
-              <p>Applications are now closed for 2019. Check back again next year!</p>
+              <p>Applications will be opening in August 2020!</p>
             </div>
           </div>
         </div>
@@ -99,9 +99,8 @@
           </div>
           <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
             <div class="panel-body px-5 mb-4">
-              <p>The event is being hosted at DePaul University’s loop campus in our College of Computing and Digital
-                Media building located at 243 S Wabash Ave, Chicago, IL 60604.</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.669520616516!2d-87.62777538526447!3d41.87845627337208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2ca2e3bfd29f%3A0x401371e1c22aca86!2sDePaul%20University%20-%20College%20of%20Computing%20and%20Digital%20Media%20(CDM)!5e0!3m2!1sen!2sus!4v1585288564566!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              <p>Due to COVID-19, DemonHacks will be hosted online via Discord and Twitch for the safety of all our
+                participants and organizers!</p>
             </div>
           </div>
         </div>
@@ -118,7 +117,7 @@
           <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
             <div class="panel-body px-5 mb-4">
               <p>Of course! Hackathons are a great place to learn new technologies, meet new people, network with
-                sponsors, add something to your resume, and eat some free food ;)</p>
+                sponsors, add something to your resume, and hack something cool ;)</p>
             </div>
           </div>
         </div>
@@ -165,6 +164,42 @@
   <section class="schedule" id="schedule">
     <div class="container">
       <h1>Schedule.</h1>
+      <a href="#fri" class="button1" data-toggle="collapse"><b>Friday, Oct. 23rd</b></a>
+      <div id="fri" class="collapse show">
+        <br>
+        <table id="friTable">
+          <tr>
+            <th>Time (CDT) (GMT-5)</th>
+            <th>Event</th>
+          </tr>
+          <tr>
+            <td>5:00 pm - 6:00 pm</td>
+            <td>Check-in and socialize on Discord</td>
+          </tr>
+          <tr>
+            <td>5:00 pm - 7:00 pm</td>
+            <td>Meet the Sponsors</td>
+          </tr>
+          <tr>
+            <td>7:00 pm</td>
+            <td>Opening Ceremony!</td>
+          </tr>
+          <tr>
+            <td>8:00 pm</td>
+            <td>Team Building + Mentor matching</td>
+          </tr>
+          <tr>
+            <td>9:00 pm</td>
+            <td>Hacking begins!</td>
+          </tr>
+          <tr>
+            <td>10:00 pm</td>
+            <td>Tech Talk</td>
+          </tr>
+        </table>
+        <br>
+      </div>
+      <p></p>
       <a href="#sat" class="button1" data-toggle="collapse"><b>Saturday, Oct. 24th</b></a>
       <div id="sat" class="collapse show">
         <br>
@@ -172,62 +207,30 @@
           <tr>
             <th>Time (CDT) (GMT-5)</th>
             <th>Event</th>
-            <th>Location</th>
           </tr>
           <tr>
-            <td>9:00 am - 12:00 pm</td>
-            <td>Check-in</td>
-            <td>9th Floor CDM Building</td>
+            <td>1:00 am</td>
+            <td>Jackbox Tournament</td>
           </tr>
           <tr>
-            <td>9:00 am - 11:00 am</td>
-            <td>Meet the Sponsors</td>
-            <td>9th Floor CDM Building</td>
-          </tr>
-          <tr>
-            <td>10:00 am</td>
-            <td>Breakfast + Walk-ins check-in</td>
-            <td>9th Floor CDM Building</td>
-          </tr>
-          <tr>
-            <td>11:00 am</td>
-            <td>Opening Ceremony</td>
-            <td>9th Floor CDM Building</td>
-          </tr>
-          <tr>
-            <td>11:30 am</td>
-            <td>HACKING BEGINS + (Team Building)</td>
-            <td>9th Floor CDM Building</td>
+            <td>9:00 am</td>
+            <td>Hacking Ends!</td>
           </tr>
           <tr>
             <td>1:00 pm</td>
-            <td>Tech Talk (Git Better)</td>
-            <td>9th Floor CDM Building</td>
-          </tr>
-          <tr>
-            <td>2:00 pm</td>
-            <td>Lunch</td>
-            <td>9th Floor CDM Building</td>
+            <td>Art Trivia</td>
           </tr>
           <tr>
             <td>4:00 pm</td>
-            <td>Tech Talk (Personal & Application Security)</td>
-            <td>9th Floor CDM Building</td>
+            <td>Tech Talk</td>
           </tr>
           <tr>
-            <td>6:30 pm</td>
-            <td>Dinner</td>
-            <td>9th Floor CDM Building</td>
+            <td>8:00 pm</td>
+            <td>Skribble Tournament</td>
           </tr>
           <tr>
-            <td>9:00 pm</td>
-            <td>Cup Stacking Tournament</td>
-            <td>9th Floor CDM Building</td>
-          </tr>
-          <tr>
-            <td>11:00 pm</td>
-            <td>Tech Talk (ThoughtWorks)</td>
-            <td>9th Floor CDM Building</td>
+            <td>10:00 pm</td>
+            <td>Minecraft building Tournament begins</td>
           </tr>
           </tr>
         </table>
@@ -235,59 +238,32 @@
       </div>
       <p></p>
       <a href="#sun" class="button1" data-toggle="collapse"><b>Sunday, Oct. 25th</b></a>
-      <div id="sun" class="collapse">
+      <div id="sun" class="collapse show">
         <br>
         <table id="sunTable">
           <tr>
             <th>Time (CDT) (GMT-5)</th>
             <th>Event</th>
-            <th>Location</th>
-          </tr>
-          <tr>
-            <td>12:00 am</td>
-            <td>Midnight Snack</td>
-            <td>9th Floor CDM Building</td>
           </tr>
           <tr>
             <td>1:00 am</td>
-            <td>LipSync Battle & Giant Games</td>
-            <td>9th Floor CDM Building</td>
-          </tr>
-          <tr>
-            <td>7:00 am</td>
-            <td>Breakfast</td>
-            <td>9th Floor CDM Building</td>
+            <td>Minecraft building Tournament ends</td>
           </tr>
           <tr>
             <td>9:00 am</td>
-            <td>Paper Plane Tournament</td>
-            <td>9th Floor CDM Building</td>
+            <td>Hacking ends</td>
           </tr>
           <tr>
-            <td>11:00 am</td>
-            <td>Brunch</td>
-            <td>9th Floor CDM Building</td>
+            <td>9:30 am - 11:30am</td>
+            <td>Judging block</td>
           </tr>
           <tr>
-            <td>11:30 am</td>
-            <td>HACKING ENDS (Submissions Due)</td>
-            <td>9th Floor CDM Building</td>
-          </tr>
-          <tr>
-            <td>12:30 pm - 2:00 pm</td>
-            <td>Project Expo</td>
-            <td>9th Floor CDM Building</td>
-          </tr>
-          <tr>
-            <td>3:00 pm</td>
+            <td>12:30 pm</td>
             <td>Closing Ceremony</td>
-            <td>9th Floor CDM Building</td>
-          </tr>
           </tr>
         </table>
         <br>
       </div>
-
     </div>
     <br>
     <script src="js/schedule.js"></script>
