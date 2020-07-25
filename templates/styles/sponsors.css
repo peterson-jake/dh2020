@@ -48,8 +48,8 @@ h3 {
     margin-top: 10px;
     margin-bottom: 5px;
     transition: transform .2s;
-    max-width: 600px;
-    max-height: 100px;
+    max-width: 300px;
+    max-height: 50px;
 }
 
 .sponsors .container img:hover {

@@ -77,11 +77,36 @@ section {
     transition: all 0.2s;
     margin-bottom: 10px;
     text-align: center;
-    width: 150px;
+    width: 200px;
+    height: 60px;
+}
+
+
+.banner .container .button-height{
+    display: inline-block;
+    border: 0.1em solid #FFFFFF;
+    padding-top: .7%;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 17;
+    color: #FFFFFF;
+    transition: all 0.2s;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 200px;
     height: 60px;
 }
 
 .banner .container a:hover {
     color: #000000;
     background-color: #FFFFFF;
+}
+
+.banner .container .center-buttons{
+    align-items: center;
+    padding-top: 1%;
 }
