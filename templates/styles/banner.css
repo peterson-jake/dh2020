@@ -24,7 +24,7 @@ section {
     background-color: #202020;
     /*background-color: #01314d;*/
     color: #fff;
-    padding-top: 15%;
+    padding-top: 0%;
 }
 
 .banner .container {
@@ -75,7 +75,7 @@ section {
     font-size: 25;
     color: #FFFFFF;
     transition: all 0.2s;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     text-align: center;
     width: 150px;
     height: 60px;
